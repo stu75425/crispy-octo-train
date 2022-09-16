@@ -27,7 +27,7 @@ header:after {
  background-color: rgb(255, 255, 255);
 }
 
-label {
+div {
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: linear-gradient(to bottom, #a5d0e7, #c3c3c3);
