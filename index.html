@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta name="viewport" content="width=device=width,initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<title> Lydney Doctors Surgery </title>
+    </head>
+    <div id="header" style="background-color: whitesmoke;">
+      <h2><a href="index.html">Lydney Practice</a></h2>
+    </div>
+    <div id="menu" align="center">
+        <ul>
+            <li><a href="practice-information.html">Practice Information</a></li>
+            <li><a href="self-help.html">Self Help</a></li>
+            <li><a href="general-enquiries.html">General Enquiries</a></li>
+            <li><a href="myaccount.php">My Account</a></li>
+        </ul>
+    </div>
+    <body style="text-align:center;">
+        <div class="row" color: darkslategray;">
+            <div class="column1" style="background-color: cadetblue; height:50%">
+                <h4 style="text-decoration: overline;">Resources</h4>
+              <dl>
+                <dt><a href="covid19-information.html">COVID-19 Information</a></dt>
+                <dt><a href="treatment-room.html">Treatment Room</a></dt>
+                <dt><a href="administration-office">Administration Office</a></dt>
+                <dt><a href="news-and-updates.html">News and Updates</a></dt>
+              </dl>
+                  </div> <!-- end of column1-->
+        <div class="column2" style="background-color:white;">
+            <label id="lblGreetings"></label>
+            <p style="font-weight: bold;">Welcome to the Lydney Practice</p>
+            <p style="font-size:15px;">This online system allows you to take control of your health easily, 
+                where you can do the following: </p>
+                <button type="button">
+                <a href="covid19-information.html">
+                    Check current COVID-19 guidelines</a></button>
+                <button type="button">
+                <a href="myaccount.php">
+                    Register for our online services</a></button>
+                <br>
+                <button type="button">
+                <a href="news-and-updates.html">
+                    Keep up to date with latest news from surgery</a></button>
+                <button type="button">
+                <a href="treatment-room.html">
+                    Visit the online treatment room</a></button>
+        </div>
+        <div class="column3">
+      <h4>Quick Links</h4>
+    <dl>
+        <dt><a href="patient-registration-form.html">Patient Registration Form</a></dt>
+        <dt><a href="myaccount.php">Register for Online Services</a></dt>
+        <dt><a href="login.php">Already got an account? sign in to manage bookings!</a></dt>
+        <dt><a href="how-to-use-online-services.html">How to use our online services</a></dt> 
+    </dl>
+        </div> <!-- end of column3-->
+    </div> <!-- end of row -->
+    </body>
+    <footer>
+        <p style="text-align: center; color:whitesmoke; padding-top:15px; opacity: 50%;">Copyright (c) 2022 
+            <br> STU75425</p>
+    </footer>
+    <script>
+        var myDate = new Date();
+ var hrs = myDate.getHours();
+ 
+ var greet;
+ 
+ if (hrs < 12)
+ greet = 'Good Morning';
+ else if (hrs >= 12 && hrs <= 17)
+ greet = 'Good Afternoon';
+ else if (hrs >= 17 && hrs <= 24)
+ greet = 'Good Evening';
+ 
+ document.getElementById('lblGreetings').innerHTML = 
+ '<b><br>' + greet;
+ </script>
+</html>

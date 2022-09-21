@@ -1,0 +1,176 @@
+html {
+    background-color: whitesmoke;
+}
+#header {
+    background-color:whitesmoke;
+    color:cadetblue;
+    font-style: italic;
+    font-size: 30px;
+    padding: 1px;
+    text-align: center;
+    border-style:hidden;
+}
+#header a {
+    text-decoration: none;
+    color: cadetblue;
+}
+#menu {
+    border-bottom: double;
+    border-color: cadetblue;
+}
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+#menu li a {
+    text-decoration: none;
+    border-right: 0px;
+    padding: 10px 10px;
+    color:darkslategrey;
+}
+#menu li a:hover {
+    text-decoration:overline;
+    color: cadetblue;
+    font-size: 15px;
+}
+body {
+    min-height:400px;
+    margin-bottom: 100px;
+    clear: both;
+    text-align: center;
+}
+#lblGreetings {
+    font-size: 25px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to top, cadetblue, lightgrey);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.column1 {
+    float:left;
+    text-align: center;
+    left:0;
+    width: 20%;
+    color: whitesmoke;
+    font-size: 18px;  
+    height: 100%; 
+}
+.column1 dl dt{
+    list-style-type: none;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+}
+.column1 dt a {
+    text-decoration: none;
+    padding: 0 0 5px 0;
+    color:whitesmoke;
+}
+.column1 dt a:hover {
+    font-weight: bold;
+    color: darkslategray;
+}
+.column2 {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 2px;
+    display: inline-block;
+}
+.col-25 {
+    margin-top:10px;
+}
+.col-35 {
+    margin-top: 6px;
+}
+.col-75 {
+    margin-top: 6px;
+}
+.col-85 {
+    margin-top: 50px;
+}
+@media screen and (max-width: 600px){
+    .col-25, .col-35, .col-75 {
+        width: 100%;
+        margin-top: 6px;
+    }
+    button {
+        width:35%;
+        font-size: 12px;
+        align-items: center;
+    }
+    input[type=text] {
+        width: 50%;
+        padding: 12px;
+        border: 1px solid cadetblue;
+        border-radius: 4px;
+        resize: vertical;
+        font-size: 12px;
+    }
+}
+button {
+    color:whitesmoke;
+    background: cadetblue;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+}
+button:hover {
+    opacity: 50%;
+}
+.column3 {
+float:right;
+text-align: center;
+left:0;
+width: 20%;
+color: whitesmoke;
+font-size: 18px;  
+background-color: cadetblue; 
+height: 100%; 
+}
+.column3 dl dt{
+list-style-type: none;
+padding: 0 0 5px 0;
+font-size: 14px;
+}
+.column3 dt a {
+text-decoration: none;
+padding: 0 0 5px 0;
+color:whitesmoke;
+}
+.column3 dt a:hover {
+font-weight: bold;
+color: darkslategray;
+}
+h4 {
+text-decoration: overline;
+}
+.row {
+padding:10px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+footer {
+    position: fixed;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    height:100%;
+    overflow:hidden;
+}

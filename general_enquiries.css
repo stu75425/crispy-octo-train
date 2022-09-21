@@ -1,0 +1,154 @@
+html {
+    background-color: whitesmoke;
+}
+#header {
+    background-color:whitesmoke;
+    color:cadetblue;
+    font-style: italic;
+    font-size: 30px;
+    padding: 1px;
+    text-align: center;
+    border-style:hidden;
+}
+#header a {
+    text-decoration: none;
+    color: cadetblue;
+}
+#menu {
+    border-bottom: double;
+    border-color: cadetblue;
+}
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+#menu li a {
+    text-decoration: none;
+    border-right: 0px;
+    padding: 10px 10px;
+    color:darkslategrey;
+}
+#menu li a:hover {
+    text-decoration:overline;
+    color: cadetblue;
+    font-size: 15px;
+}
+#lblGreetings {
+    font-size: 25px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to top, cadetblue, lightgrey);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.column1 {
+    float:left;
+    text-align: center;
+    left:0;
+    width: 20%;
+    color: whitesmoke;
+    font-size: 18px;  
+    height: 60%; 
+    background-color: cadetblue;
+}
+.column1 dl dt{
+    list-style-type: none;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+}
+.column1 dt a {
+    text-decoration: none;
+    padding: 0 0 5px 0;
+    color:whitesmoke;
+}
+.column1 dt a:hover {
+    font-weight: bold;
+    color: darkslategray;
+}
+.column2 {
+    float: left;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+}
+.column2 dl dt{
+    list-style-type: none;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+}
+.column2 p {
+    color: darkslategrey;
+}
+p a:hover {
+    opacity: 50%;
+    font-weight: bold;
+}
+button {
+    color: whitesmoke; 
+    background: cadetblue; 
+    padding: 5px 15px;
+    margin: 5px 25px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    width: 40%;
+    height: 50px;
+}
+button a {
+    text-decoration: none; 
+    color: whitesmoke;
+}
+button:hover {
+    opacity: 50%;
+    font-weight: bold;
+}
+.column3 {
+float:right;
+text-align: center;
+left:0;
+width: 20%;
+color: whitesmoke;
+font-size: 17px;  
+background-color: cadetblue; 
+height: 60%; 
+}
+.column3 dl dt{
+list-style-type: none;
+padding: 0 0 5px 0;
+font-size: 14px;
+}
+.column3 dt a {
+text-decoration: none;
+padding: 0 0 5px 0;
+color:whitesmoke;
+}
+.column3 dt a:hover {
+font-weight: bold;
+color: darkslategray;
+}
+h4 {
+text-decoration: overline;
+}
+body {
+    min-height:400px;
+    margin-bottom: 100px;
+    clear: both;
+    text-align: center;
+}
+.row {
+padding:10px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+footer {
+    position: fixed;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    height:100%;
+    overflow:hidden;
+}
